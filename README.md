@@ -1,1 +1,2 @@
-Help Me Build This
+# The Artist Republic
+A Art Platform With No Introducton
