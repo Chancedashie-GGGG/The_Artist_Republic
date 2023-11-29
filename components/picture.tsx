@@ -3,7 +3,7 @@ interface PictureProps {
     thumbnail: string | undefined;
 }
 
-const Thumbnail: React.FC<PictureProps> = ({
+const ThumbnailPic: React.FC<PictureProps> = ({
     thumbnail
 }) => {
     return (
@@ -13,4 +13,4 @@ const Thumbnail: React.FC<PictureProps> = ({
     );
 }
 
-export default Thumbnail;
+export default ThumbnailPic;
