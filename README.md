@@ -1,5 +1,5 @@
 # The Artist Republic
-A Art Platform With No Introducton
+More Then A Art Platform
 
 ## Goals
 - Make A New Video Player (✓)
