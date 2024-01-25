@@ -44,9 +44,9 @@
         <ion-icon name="menu" onclick="showMenu()"></ion-icon>
     </nav>
     <div id="container">
-        <?php echo '<video id="player" class="video-js vjs-Tarplayer" playsinline controls><source src="assets/444444.mp4"/></video>' ?>
+        <?php echo '<video id="player" class="video-js vjs-Tarplayer" playsinline controls><source src=""/></video>' ?>
         <div>
-            <span>Video</span>
+            <span>Video Name</span>
         </div>
     </div>
     <script src="js/app.js" defer></script>
