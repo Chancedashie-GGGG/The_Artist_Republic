@@ -1,9 +1,11 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <title>The Artist Republic</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css">
+
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
@@ -22,78 +24,46 @@
 </head>
 
 <body>
-    <nav class="navbar" id="navbar">
-        <img src="images/Logowhite.png" class="Logo">
-        <div class="navlinks" id="navlinks">
-            <ion-icon name="close" onclick="hideMenu()"></ion-icon>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="">Videos</a></li>
-                <li><a href="">Drawings</a></li>
-                <li><a href="">Music</a></li>
-                <li><a href="">Live TV</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/auth_signin">My Account</a></li>
-            </ul>
-        </div>
-        <ion-icon name="menu" onclick="showMenu()"></ion-icon>
-    </nav>
     <div id="container">
-        <div class="hero">
-            <div class="herowrap">
-                <span>Welcome To The Artist Republic!</span>
-                <p>More Then A Art Platform</p>
-            </div>
-        </div>
         <div class="page-wrap">
-            <section class="featured-section">
-                <div>
-                    <h1>Featured Creator (Weekly)</h1>
-                    <div class="slider-wrap">
-                        <div class="slider">
-                            <div class="slider-inner">
-                                <div class="item">
-                                    <h3>Item One</h3>
-                                </div>
-                                <div class="item">
-                                    <h3>Item Two</h3>
-                                </div>
-                                <div class="item">
-                                    <h3>Item Three</h3>
-                                </div>
-                                <div class="item">
-                                    <h3>Item Four</h3>
-                                </div>
-                                <div class="item">
-                                    <h3>Item Five</h3>
-                                </div>
-                                <div class="item">
-                                    <h3>Item Six</h3>
-                                </div>
-                                <div class="item">
-                                    <h3>Item Seven</h3>
-                                </div>
-                                <div class="item">
-                                    <h3>Item Eight</h3>
-                                </div>
-                                <div class="item">
-                                    <h3>Item Nine</h3>
-                                </div>
-                                <div class="item">
-                                    <h3>Item Ten</h3>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="progress-bar">
-                            <div class="prog-bar-inner"></div>
-                        </div>
+            <nav class="navbar">
+                <div class="top">
+                    <form class="signin-box" action="action-page.php" method="get">
+                        <input type="email" name="" placeholder="Email" id="email">
+                        <input type="password" name="" placeholder="Password" id="password">
+                        <input type="checkbox" name="save" id="saveinfo">
+                        <label for="save">Save Info?</label>
+                        <input type="submit" value="Log In">
+                    </form>
+                    <span class="no-account-box">Don't have a account? <a class="link" href="">Sign Up Today!</a></span>
+                    <form class="search-box" action="action-page.php" method="get">
+                        <input type="search" name="" placeholder="Search For Everything" id="search">
+                        <input type="submit" class="apri__button">
+                    </form>
+                </div>
+                <div class="logo">
+                    <a href="/"><img src="/images/Logowhite.png" width="200"></a>
+                </div>
+            </nav>
+            <div class="main-page gird">
+                
+                <aside class="featured-section">
+                    <div>
+                        <h1>Featured Creator (Weekly)</h1>
                     </div>
-                </div>
-                <div>
-                    
-                </div>
-            </section>
+                    <div>
+
+                    </div>
+                </aside>
+                <section class="section">
+                    <div>
+                        <h1>Recent Videos</h1>
+                    </div>
+                    <div>
+
+                    </div>
+                </section>
+            </div>
         </div>
     </div>
     <script src="js/app.js" defer></script>
