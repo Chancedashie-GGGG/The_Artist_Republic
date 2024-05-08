@@ -17,7 +17,7 @@
             <?php include("../core/templates/navbar.php") ?>
             <main class="mainpage">
                 <?php include("../core/templates/photo.html") ?>
-                <h1>It's BostonChan!</h1>
+                <h1>...</h1>
             </main>
         </div>
     </div>
