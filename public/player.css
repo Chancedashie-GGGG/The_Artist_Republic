@@ -1,0 +1,8 @@
+:where(.vds-video-layout) {
+  --media-brand: #ef2929;
+  --media-font-family: Raleway, 'Segoe UI', system-ui, sans-serif;
+}
+
+:where(.vds-video-layout .vds-controls-group:nth-last-child(2)) {
+  padding: 0;
+}
